@@ -1,0 +1,22 @@
+.abc{
+    color: red;
+}
+
+.abc{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.abc img{
+  margin: 1%;
+}
+.d img{
+
+  justify-content: flex-start;
+  direction: column-reverse;
+  
+}
+.e img{
+  margin-bottom: 10%;
+}

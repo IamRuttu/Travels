@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lugrasimo&display=swap');
+.mpage {
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lugrasimo', cursive;
+}
+
+.mpg1 {
+    background-image: url("../../Assets/Image/night.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mpg1 h1 {
+    color: #fff;
+    font-size: 50px;
+}

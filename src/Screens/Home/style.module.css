@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lugrasimo&display=swap');
+.main {
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lugrasimo', cursive;
+}
+
+.mbg {
+    background-image: url("../../Assets/Image/m-bg.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    top: 25%;
+    left: 50%; 
+
+    transform: translateX(-50%); 
+}
+
+
+
+.text {
+    color: azure;
+    cursor: pointer;
+    
+}
+
+
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .content {
+        top: 50%; /* Adjusted for smaller screens */
+        transform: translateY(-50%);
+        left: 50%; /* Center horizontally on smaller screens */
+    }
+}
+
+.mbg2 {
+   background-color: aquamarine;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5%;
+    
+}
+
+
+
+.h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: black;
+}
+
+
+ 
+
+.Button button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #d29d0c;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    top: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lugrasimo', cursive;
+    
+}
+
+.Button span {
+    background: #a8e6eb;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.Button button:hover span{
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}

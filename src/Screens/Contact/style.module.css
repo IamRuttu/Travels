@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lugrasimo&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+}
+
+form {
+    display: block;
+    background-color: white;
+    /* box-shadow: 1px 1px 3px 2px #ddd; */
+    margin: -9px auto;
+    
+    /* max-height: 900px; */
+    padding: 20px 40px;
+}
+
+form input,
+textarea {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 10px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lugrasimo', cursive;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    
+}
+
+.bpg {
+    position: relative;
+    background-color: rgb(149, 168, 73);
+}
+
+.bpg1 {
+    background-image: url("../../Assets/Image/2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bpg1 h1 {
+    
+    
+
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    
+}
+ .bpg2 {
+    background-color: rgb(149, 168, 73);
+ }
+
+
+
+
+
+
+
+  
